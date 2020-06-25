@@ -8,3 +8,7 @@ class Dog
     @all = all
   end
 end
+Snoopy = Dog.new
+Pluto = Dog.new
+fido = Dog.new 
+maddy = Dog.new 
