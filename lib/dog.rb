@@ -10,5 +10,5 @@ class Dog
 end
 Snoopy = Dog.new
 Pluto = Dog.new
-fido = Dog.new 
+fido = Dog.new
 maddy = Dog.new 
