@@ -13,8 +13,8 @@ attr_accessor :name
   end
 
   def clear_all
-    @@all.delete 
-  end 
+    @@all.delete
+  end
 end
 
 
