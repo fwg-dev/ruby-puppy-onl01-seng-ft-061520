@@ -13,9 +13,9 @@ attr_accessor :name
     @@all
   end
 
-  # def clear_all
-  #   @@clear_all.self
-  # end
+  def clear_all
+    @@clear_all.self
+  end
 end
 
 
