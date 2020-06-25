@@ -16,10 +16,10 @@ attr_accessor :name
   def self.clear_all
     @@all.clear
   end
-private 
+private
 def self.print_all
-  @@all.print 
-end 
+  @@all.print
+end
 end
 
 
