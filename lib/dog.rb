@@ -6,6 +6,7 @@ attr_accessor :name
   def initialize(name)
     @name = name
     @@all << self
+    @@clear_all = clear_all
   end
 
   def self.all
@@ -13,7 +14,7 @@ attr_accessor :name
   end
 
   def clear_all
-    @@all.delete
+    @@clear_all.delete
   end
 end
 
