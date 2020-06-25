@@ -5,7 +5,7 @@ attr_accessor :name
 
   def initialize(name)
     @name = name
-
+   @@all << self
 
   end
 
@@ -20,12 +20,12 @@ attr_accessor :name
 def self.print_all
   @@all.each do |dogs|
     puts dogs.name
-    # my_array == @@all.map do |
+
   end
 end
 
 def save
-  @@all << self
+
 end
 end
 
