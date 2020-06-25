@@ -5,10 +5,16 @@ class Dog
 
   def initialize(name)
     @name = name
-    @all = all
+    @all << self
   end
 end
-Snoopy = Dog.new
-Pluto = Dog.new
-fido = Dog.new
-maddy = Dog.new 
+
+
+
+
+
+
+# Snoopy = Dog.new
+# Pluto = Dog.new
+# fido = Dog.new
+# maddy = Dog.new
