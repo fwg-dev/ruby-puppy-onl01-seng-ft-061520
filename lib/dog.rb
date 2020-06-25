@@ -8,8 +8,8 @@ attr_accessor :name
   @@all << all
   end
 
-  def self.all 
-  end 
+  def self.all
+  end
 end
 
 
