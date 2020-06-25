@@ -11,6 +11,10 @@ attr_accessor :name
   def self.all
     @@all
   end
+
+  def clear_all
+    @@all.delete 
+  end 
 end
 
 
