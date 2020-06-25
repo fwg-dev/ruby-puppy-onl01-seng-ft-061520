@@ -18,10 +18,10 @@ attr_accessor :name
   end
 # # private
 def self.print_all
-  @@all .each do |x| 
-    puts x.name 
+  @@all .each do |x|
+    puts x.name
     # my_array == @@all.map do |
-  end 
+  end
 end
 end
 
